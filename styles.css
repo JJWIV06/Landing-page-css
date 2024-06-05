@@ -1,0 +1,207 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    margin: 0
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 60px
+}
+
+.logo {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F9FAF8;
+    font-weight: 600;
+    width: 500px;
+    flex-shrink: 1
+}
+
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+    flex-shrink: 1
+}
+
+/* --------------------------------------------CONTENT BOX ONE----------------------------------------- */
+
+.content-box-one {
+    display: flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 150px 100px 150px;
+    gap: 60px
+    
+}
+
+.content-box-one-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 245px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content-box-one-left-title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-shrink: 1;
+}
+
+.content-box-one-left-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-shrink: 1;
+}
+
+.top-sign-up-button {
+    width: 120px;
+    height: 36px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.content-box-one-right {
+    display: flex;
+    width: 500px;
+    height: 245px;
+    background-color: silver;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 9px;
+}
+
+/* -----------------------------------------------CONTENT BOX TWO-------------------------------------- */
+
+.content-box-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 48px
+}
+
+.box {
+    height: 175px;
+    width: 175px;
+    border: 5px solid #3882F6;
+    border-radius: 9px;
+    margin: 0 20px 20px 20px
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    gap: 24px
+}
+
+.box-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-text {
+    text-align: center;
+    width: 175px;
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+}
+
+.quote {
+    text-align: start;
+    padding: 229px 229px 0 229px;
+    font-size: 36px;
+    font-family: light;
+    font-style: italic;
+    font-weight: 10;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.signature {
+    text-align: end;
+    padding: 24px 250px 130px 250px;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #E5E7EB;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 900px;
+    height: 125px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    gap: 72px
+}
+
+.sign-up-box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.sign-up-box-text-top {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bottom-sign-up-button {
+    border: 3px solid #E5E7EB;
+    background-color: #3882F6;
+    height: 42px;
+    width: 130px;
+    border-radius: 9px;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* ----------------------------------------------FOOTER------------------------------------------------ */
+
+.footer {
+    text-align: center;
+    padding: 36px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 17px;
+}
