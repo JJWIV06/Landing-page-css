@@ -31,11 +31,15 @@ ul {
     list-style: none;
     gap: 16px;
     padding: 0;
+    width: 500px;
+    flex-shrink: 1
+}
+
+a {
+    text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
-    width: 500px;
-    flex-shrink: 1
 }
 
 /* --------------------------------------------CONTENT BOX ONE----------------------------------------- */
@@ -132,6 +136,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 24px
 }
 
 .box-text {
@@ -143,7 +148,7 @@ ul {
 
 .quote {
     text-align: start;
-    padding: 229px 229px 0 229px;
+    padding: 229px 450px 0 450px;
     font-size: 36px;
     font-family: light;
     font-style: italic;
@@ -154,7 +159,7 @@ ul {
 
 .signature {
     text-align: end;
-    padding: 24px 250px 130px 250px;
+    padding: 24px 520px 130px 250px;
     font-weight: 700;
     font-size: 24px;
     background-color: #E5E7EB;
